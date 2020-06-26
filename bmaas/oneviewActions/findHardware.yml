@@ -1,0 +1,30 @@
+- name: Get details of server profile  "{{ server_profile_name }}"
+  oneview_server_profile_facts:
+    hostname: "{{ oneview_hostname }}"
+    username: "{{ oneview_username }}"
+    password: "{{ oneview_password }}"
+    api_version: "{{ oneview_api_version }}"
+    name: "{{ server_profile_name }}"
+  delegate_to: localhost
+  register: result
+
+- fail:
+     msg: "Found multiple server hardware facts"
+  when: server_profiles | length  > 1
+
+- set_fact:
+    hardwareUri: "{{ server_profiles[0].serverHardwareUri }}"
+
+- name: Get server hardware details of server profile "{{ server_profile_name }}"
+  oneview_server_hardware_facts:
+    hostname: "{{ oneview_hostname }}"
+    username: "{{ oneview_username }}"
+    password: "{{ oneview_password }}"
+    api_version: "{{ oneview_api_version }}"
+    uri: "{{ hardwareUri }}"
+  delegate_to: localhost
+  register: newResult
+
+- set_fact:
+    server_hardware_name: "{{ server_hardwares.name }}"
+    power_state: "{{ server_hardwares.powerState | lower}}"

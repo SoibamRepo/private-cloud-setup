@@ -1,0 +1,31 @@
+- hosts: localhost
+  connection: local
+  vars_files:
+  - data/tshirt_size.yml
+  tasks:
+  - name: Running VM LCM - VM=  "{{ vm_name }}", action= "{{ action }}"
+    vmware_guest:
+      hostname: "{{ vcenter_server }}"
+      username: "{{ vcenter_admin }}"
+      password: "{{ vcenter_pass }}"
+      validate_certs: no
+      name: "{{ vm_name }}"
+      state: "{{ action }}"
+      template: "{{ vm_template }}"
+      datacenter: "{{ datacenter }}"
+      cluster: "{{ cluster }}"
+      folder: "{{ vm_folder }}"
+      force: yes
+      hardware:
+        hotadd_cpu: true
+        hotadd_memory: true
+        num_cpus: "{{ vm_cpu_size[size] }}"
+        memory_mb: "{{ vm_mem_size[size] }}"
+      wait_for_ip_address: yes
+    register: vm_details
+
+  - set_fact: vm_ip4={{ vm_details.instance.ipv4 }}
+    when: action == "poweredon"
+
+  - debug: msg={{ vm_ip4 }}
+    when: action == "poweredon"

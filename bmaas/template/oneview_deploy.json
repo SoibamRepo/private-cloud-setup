@@ -1,0 +1,29 @@
+{
+  "taskName": "{{ taskName | default('NBS-SynergyDeploy-OS') }}",
+  "hosts": [
+    {
+      "serverProfile": "{{ server_profile_name }}",
+      "hostName": "host2.gse.local",
+      "ipAddr": "{{ ipaddress | default('10.188.244.191') }}",
+      "netmask": "{{ subnet | default('255.255.255.0') }}",
+      "gateway": "{{ gateway | default('10.188.244.1') }}",
+      "dns1": "{{ dns | default('10.188.0.2') }}",
+      "dns2": "10.188.0.3",
+      "bootProto": "static",
+      "osPackage": "{{ os_name | default('VMware-ESXi67') }}",
+      "mgmtNIC": {
+        "connectionName": "Production_Net_Set_A_1"
+      },
+      "osDrive": {
+        "driveName": "logical_drive"
+      }
+    }
+  ],
+  "osPackage": "{{ os_name | default('VMware-ESXi67') }}",
+  "deploymentMode": "hpesynergy",
+  "createServerProfile": true,
+  "oneviewDetails": {
+    "ovName": "syn244",
+    "ovSPT": "{{ server_profile_template | default('Houston_vCenter_ESXi_node_profile_template') }}"
+  }
+}

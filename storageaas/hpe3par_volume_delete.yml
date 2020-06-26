@@ -1,0 +1,33 @@
+- name: "Find all the storage volumes"
+  hpe3par_volume_facts:
+    storage_system_ip: "{{ storage_system_ip }}"
+    storage_system_username: "{{ storage_system_username }}"
+    storage_system_password: "{{ storage_system_password }}"
+  register: allVolumes
+
+- set_fact:
+    storage_wwn: "{{ item.wwn }}"
+    storage_name : "{{ item.name }}"
+  with_items: "{{ allVolumes.volumes }}"
+  when: datastore_wwn == item.wwn
+
+- fail:
+    msg: "Fail to find any volume with {{ datastore_wwn }}"
+  when: storage_wwn is not defined
+
+- name: Delete VLUN
+  hpe3par_vlun:
+    storage_system_ip: "{{ storage_system_ip }}"
+    storage_system_username: "{{ storage_system_username }}"
+    storage_system_password: "{{ storage_system_password }}"
+    state: unexport_volume_from_host
+    volume_name: "{{ storage_name }}"
+    host_name: "{{ storage_cluster }}"
+
+- name: Delete Volume "{{ storage_name }}"
+  hpe3par_volume:
+    storage_system_ip: "{{ storage_system_ip }}"
+    storage_system_username: "{{ storage_system_username }}"
+    storage_system_password: "{{ storage_system_password }}"
+    state: absent
+    volume_name: "{{ storage_name }}"

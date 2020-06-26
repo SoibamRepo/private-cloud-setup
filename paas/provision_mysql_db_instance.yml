@@ -1,0 +1,42 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Creating MYSQL Database server - "{{ database_name }}"
+    vmware_guest:
+      hostname: "{{ vcenter_server }}"
+      username: "{{ vcenter_admin }}"
+      password: "{{ vcenter_pass }}"
+      validate_certs: no
+      name: "{{ database_name }}"
+      state: poweredon
+      template: "{{ vm_template }}"
+      datacenter: "{{ datacenter }}"
+      cluster: "{{ cluster }}"
+      folder: "{{ vm_folder }}"
+      force: yes
+      hardware:
+        num_cpus: 8
+        memory_mb: 12288
+      wait_for_ip_address: yes
+    register: vm_details
+
+  - set_fact: vm_ip4={{ vm_details.instance.ipv4 }}
+
+  - debug: msg={{ vm_ip4 }}
+
+- hosts: localhost
+  connection: local
+  tasks:
+  - name: Adding db vm to inventory
+    add_host:
+      hostname: mysql-db
+      ansible_ssh_host: "{{ hostvars.localhost.vm_details.instance.ipv4 }}"
+      ansible_ssh_port: 22
+
+- hosts: mysql-db
+  roles:
+    - role: db_role.mysql
+      become: yes
+  environment:
+    http_proxy: http://"{{ proxy }}"
+    https_proxy: http://"{{ proxy }}"

@@ -1,0 +1,12 @@
+- hosts: localhost
+  connection: local
+  vars_files:
+  - data/volume_cpg.yml
+  tasks:
+    - name: Create datastore in "{{ esxi_hostname }}"
+      import_tasks: vmware_ds_delete.yml
+
+    - name: Create Volume in "{{ storage_tier }}"
+      import_tasks: hpe3par_volume_delete.yml
+      when: storage_tier == '3par'
+

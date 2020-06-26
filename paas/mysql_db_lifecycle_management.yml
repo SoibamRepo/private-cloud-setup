@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  tasks:
+  - name: MYSQL Database server - action ="{{ database_action }}"
+    vmware_guest:
+      hostname: "{{ vcenter_server }}"
+      username: "{{ vcenter_admin }}"
+      password: "{{ vcenter_pass }}"
+      validate_certs: no
+      name: "{{ database_name }}"
+      state: "{{ database_action}}"
+      force: yes
+    register: vm_details

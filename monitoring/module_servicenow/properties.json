@@ -1,0 +1,16 @@
+{
+    "servicenow": {
+        "instance_url": "https://dev51431.service-now.com/api/now/table",
+        "username": "admin",
+        "password": "atPCk7I7tFiA",
+        "apiKey_1": "cfca81ba-846c-4e7d-88c3-11bcf5dcc2aa",
+        "transactionid_1": "TRANS0012345",
+        "sourcesystemid_1": "soapUI",
+        "targetsystemid_1": "SNOW"
+    },
+    "incident": {
+        "caller": "admin",
+        "short_description": "Disk failure in SD Flex node"
+    },
+    "syslog_file": "/home/karthikvr/OV_SNOW_integration/oneview_syslog_extractor/logs/oneview_syslog"
+}

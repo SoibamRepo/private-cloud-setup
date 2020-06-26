@@ -1,0 +1,29 @@
+{
+  "taskName": "NBS-SynergyDeploy-OS",
+  "hosts": [
+    {
+      "serverProfile": "NBS_ESXi_Node_2",
+      "hostName": "host2.gse.local",
+      "ipAddr": "10.188.244.191",
+      "netmask": "255.255.255.0",
+      "gateway": "10.188.244.1",
+      "dns1": "10.188.0.2",
+      "dns2": "10.188.0.3",
+      "bootProto": "static",
+      "osPackage": "VMware-ESXi67",
+      "mgmtNIC": {
+        "connectionName": "Production_Net_Set_A_1"
+      },
+      "osDrive": {
+        "driveName": "logical_drive"
+      }
+    }
+  ],
+  "osPackage": "VMware-ESXi67",
+  "deploymentMode": "hpesynergy",
+  "createServerProfile": true,
+  "oneviewDetails": {
+    "ovName": "syn244",
+    "ovSPT": "Houston_vCenter_ESXi_node_profile_template"
+  }
+}

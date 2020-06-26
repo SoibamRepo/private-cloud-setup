@@ -1,0 +1,13 @@
+- name: Add the ESXi host to vCenter
+  vmware_host:
+    hostname: '{{ vcenter_server }}'
+    username: '{{ vcenter_admin }}'
+    password: '{{ vcenter_pass }}'
+    datacenter_name: "{{ datacenter_name }}"
+    cluster_name: "{{ cluster_name }}"
+    esxi_hostname: "{{ ipaddress }}"
+    esxi_username: "root"
+    esxi_password: "{{ esxi_password }}"
+    state: present
+    validate_certs: False
+  delegate_to: localhost

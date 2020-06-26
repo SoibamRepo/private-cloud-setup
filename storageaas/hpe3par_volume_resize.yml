@@ -1,0 +1,27 @@
+- name: "Find the 3PAR volume details for {{ vcenter_datastore }}"
+  hpe3par_volume_facts:
+    storage_system_ip: "{{ storage_system_ip }}"
+    storage_system_username: "{{ storage_system_username }}"
+    storage_system_password: "{{ storage_system_password }}"
+  register: allVolumes
+
+- set_fact:
+    storage_wwn: "{{ item.wwn }}"
+    storage_name : "{{ item.name }}"
+  with_items: "{{ allVolumes.volumes }}"
+  when: datastore_wwn == item.wwn
+
+- fail:
+    msg: "Fail to find any volume with {{ datastore_wwn }}"
+  when: storage_wwn is not defined
+
+- name: Update Volume "{{ storage_name }}"
+  hpe3par_volume:
+    storage_system_ip: "{{ storage_system_ip }}"
+    storage_system_username: "{{ storage_system_username }}"
+    storage_system_password: "{{ storage_system_password }}"
+    state: grow_to_size
+    volume_name: "{{ storage_name }}"
+    size: "{{ size }}"
+    size_unit: "{{ size_unit }}"
+  delegate_to: localhost

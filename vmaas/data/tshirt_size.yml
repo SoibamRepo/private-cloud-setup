@@ -1,0 +1,10 @@
+---
+vm_mem_size:
+  small:  4096
+  medium: 8192
+  large: 12288
+
+vm_cpu_size:
+  small: 2
+  medium: 4
+  large: 6

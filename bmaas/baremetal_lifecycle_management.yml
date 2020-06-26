@@ -1,0 +1,27 @@
+- hosts: localhost
+  vars:
+  - vcenter_hostname: "10.188.244.110"
+  - vcenter_username: "administrator@vsphere.local"
+  - vcenter_password: "HP!nvent123"
+  - esxi_hostname: "10.188.244.223"
+  - oneview_hostname: "10.188.0.180"
+  - oneview_username: "v244usradmin"
+  - oneview_password: "HP!nvent123"
+  - oneview_api_version: 1000
+  tasks:
+  - set_fact:
+       action: "{{ action | lower }}"
+
+  - import_tasks: oneviewActions/createProfile.yml
+    when: action  == "create"
+
+  - import_tasks: oneviewActions/findHardware.yml
+
+  - import_tasks: oneviewActions/deleteProfile.yml
+    when: action  == "delete"
+
+  - import_tasks: oneviewActions/powerOff.yml
+    when: action  == "poweroff"
+
+  - import_tasks: oneviewActions/powerOn.yml
+    when: action  == "poweron"

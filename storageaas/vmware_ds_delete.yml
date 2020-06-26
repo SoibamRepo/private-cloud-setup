@@ -1,0 +1,29 @@
+- name: Get VMFS datastores to ESXi
+  vmware_datastore_san_facts:
+    hostname: '{{ vcenter_server }}'
+    username: '{{ vcenter_admin }}'
+    password: '{{ vcenter_pass }}'
+    datastore_name: '{{ vcenter_datastore }}'
+    validate_certs: False
+  delegate_to: localhost
+  register: datastoreFacts
+
+- set_fact:
+    datastore_wwn: "{{ item.wwn[0] | upper }}"
+  with_items: "{{ datastoreFacts.datastores }}"
+
+- fail:
+    msg: "Unable to find 3PAR volume wwn of the datastore {{ vcenter_datastore }}"
+  when: datastore_wwn is not defined
+
+- name: Unmount and delete the VMFS datastores from vCenter
+  vmware_host_datastore_san:
+      hostname: '{{ vcenter_server }}'
+      username: '{{ vcenter_admin }}'
+      password: '{{ vcenter_pass }}'
+      datastore_name: '{{ vcenter_datastore }}'
+      volume_device_name: '{{ datastore_wwn }}'
+      esxi_hostname: '{{ esxi_hostname }}'
+      validate_certs: False
+      state: absent
+  delegate_to: localhost

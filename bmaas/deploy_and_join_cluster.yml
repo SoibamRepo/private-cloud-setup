@@ -1,0 +1,14 @@
+- hosts: osda_server
+  connection: local
+  tasks:
+  - import_tasks: prepare.yml
+  - import_tasks: validate_input.yml
+  - import_tasks: deploy.yml
+  - import_tasks: check_tasks.yml
+
+  # Ideally, polling should happen on tasks, however
+  # with the current form of OSDA, checking ssh is the
+  # best possible customer guarantee to check OS is installed
+  - import_tasks: polling.yml
+
+  - import_tasks: add_host_cluster.yml

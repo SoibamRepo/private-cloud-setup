@@ -1,0 +1,46 @@
+- name: Create Volume "{{ volume_name }}"
+  hpe3par_volume:
+    storage_system_ip: "{{ storage_system_ip }}"
+    storage_system_username: "{{ storage_system_username }}"
+    storage_system_password: "{{ storage_system_password }}"
+    state: present
+    volume_name: "{{ volume_name }}"
+    cpg: "{{ volume_size[volume_tier] }}"
+    size: "{{ size }}"
+    size_unit: "{{ size_unit }}"
+
+- name: Get details of "{{ volume_name }}"
+  hpe3par_volume_facts:
+    storage_system_ip: "{{ storage_system_ip }}"
+    storage_system_username: "{{ storage_system_username }}"
+    storage_system_password: "{{ storage_system_password }}"
+    name: "{{ volume_name }}"
+  register: volumewwn
+
+- fail:
+    msg: "Found more volumes when quering with {{ storage_volume_name }}"
+  when: volumewwn.count != 1
+
+- set_fact:
+    wwn: "{{ volumewwn.volumes[0].wwn }}"
+
+- name: Create VLUN
+  hpe3par_vlun:
+    storage_system_ip: "{{ storage_system_ip }}"
+    storage_system_username: "{{ storage_system_username }}"
+    storage_system_password: "{{ storage_system_password }}"
+    state: export_volume_to_host
+    volume_name: "{{ volume_name }}"
+    host_name: "{{ storage_cluster }}"
+    autolun: True
+
+- name: Mount VMFS datastores to ESXi
+  vmware_host_datastore_san:
+    hostname: '{{ vcenter_server }}'
+    username: '{{ vcenter_admin }}'
+    password: '{{ vcenter_pass }}'
+    datastore_name: '{{ vcenter_datastore }}'
+    volume_device_name: '{{ wwn }}'
+    esxi_hostname: '{{ esxi_hostname }}'
+    validate_certs: False
+  delegate_to: localhost

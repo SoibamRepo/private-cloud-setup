@@ -1,0 +1,7 @@
+---
+volume_size:
+  platinum: "V244_FC_r1"
+  gold: "V244_FC_r6"
+  silver: "V244_SSD_r1"
+
+storage_cluster: "v244_C7k_2M25371kHV_B2"

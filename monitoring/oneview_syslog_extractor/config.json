@@ -1,0 +1,14 @@
+{
+    "oneview_config": {
+            "host": "10.188.0.180",
+            "alias": "Roche-OneView",
+            "user": "v244usradmin",
+            "passwd": "SFAhbnZlbnQxMjM=",
+            "authLoginDomain": "LOCAL",
+            "action": "start",
+            "route": "scmb.alerts.#",
+            "alert_type": "Critical:Warning:Ok",
+            "alert_hardware_category": "server-hardware:enclosures:interconnects:logical-interconnects:sas-interconnects"
+    },
+    "logging_level": "DEBUG"
+}

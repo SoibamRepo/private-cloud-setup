@@ -1,0 +1,39 @@
+
+- name: Delete ESXi Host to vCenter under a specific folder
+  vmware_host:
+    hostname: '{{ vcenter_hostname }}'
+    username: '{{ vcenter_username }}'
+    password: '{{ vcenter_password }}'
+    datacenter: GSE_Datacenter
+    cluster: "NBS_Cluster"
+    esxi_hostname: '{{ esxi_hostname }}'
+    state: absent
+    validate_certs: False
+  delegate_to: localhost
+  when: host_os is defined and host_os == "esxi"
+
+- name: Power Off the server hardware
+  oneview_server_hardware:
+    hostname: "{{ oneview_hostname }}"
+    username: "{{ oneview_username }}"
+    password: "{{ oneview_password }}"
+    api_version: "{{ oneview_api_version }}"
+    state: power_state_set
+    data:
+        name : '{{ server_hardware_name }}'
+        powerStateData:
+            powerState: "Off"
+            powerControl: "PressAndHold"
+  delegate_to: localhost
+
+- name: "Delete server profile {{ server_profile_name }}"
+  oneview_server_profile:
+    hostname: "{{ oneview_hostname }}"
+    username: "{{ oneview_username }}"
+    password: "{{ oneview_password }}"
+    api_version: "{{ oneview_api_version }}"
+    state: "absent"
+    data:
+      name: "{{ server_profile_name }}"
+  delegate_to: localhost
+  register: result

@@ -1,0 +1,4 @@
+- name: Prepare config for OS deployment
+  template:
+    src: template/oneview_deploy.json
+    dest: data/deploy.json

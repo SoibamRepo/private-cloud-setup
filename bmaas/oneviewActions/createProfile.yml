@@ -1,0 +1,13 @@
+- name: "Create a {{ server_profile_name }} from a Template {{ oneview_template }}"
+  oneview_server_profile:
+    hostname: "{{ oneview_hostname }}"
+    username: "{{ oneview_username }}"
+    password: "{{ oneview_password }}"
+    api_version: "{{ oneview_api_version }}"
+    data:
+      serverProfileTemplateName: "{{ oneview_template }}"
+      name: "{{ server_profile_name }}"
+    params:
+      force: True
+  delegate_to: localhost
+  register: result

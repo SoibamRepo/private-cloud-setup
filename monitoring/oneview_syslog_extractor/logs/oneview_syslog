@@ -1,0 +1,1236 @@
+<2> 2020-06-23T04:07:25.039Z 10.188.0.180 oneview interconnects [] [15911|ConnectionInstance|Active|None|None|[]] [Connection on downlink port 3, subport a has failed. The subport is unlinked.If the server {"name":"MXQ71906VL, bay 3","uri":"/rest/server-hardware/39313738-3034-5535-4E38-313036313853"} is power cycling or powered off, connectivity alerts may occur when the network adapter is either disconnected or negotiates connectivity with the interconnect. These alerts can either be ignored or manually cleared and will normally clear automatically. If the server is booted and running an operating system, the alerts indicate a loss of connectivity between the network adapter and the interconnect. Verify that the CNA supports the current interconnect downlink speed. Verify the configuration of the operating system, as well as the health and link status of the downlink ports on which the connection depends. If the problem persists, contact your authorized support representative and provide a support dump.]
+<2> 2020-06-23T04:07:23.608Z 10.188.0.180 oneview interconnects [] [15909|ConnectionInstance|Active|None|None|[]] [Connection on downlink port 3, subport a has failed. The subport is unlinked.If the server {"name":"MXQ71906VL, bay 3","uri":"/rest/server-hardware/39313738-3034-5535-4E38-313036313853"} is power cycling or powered off, connectivity alerts may occur when the network adapter is either disconnected or negotiates connectivity with the interconnect. These alerts can either be ignored or manually cleared and will normally clear automatically. If the server is booted and running an operating system, the alerts indicate a loss of connectivity between the network adapter and the interconnect. Verify that the CNA supports the current interconnect downlink speed. Verify the configuration of the operating system, as well as the health and link status of the downlink ports on which the connection depends. If the problem persists, contact your authorized support representative and provide a support dump.]
+<4> 2020-05-27T17:43:35.763Z 10.188.0.180 oneview firmware-drivers [] [12054|Operational|Active|None|None|[]] [This firmware bundle does not contain the following infrastructure and manageability components. 
+Synergy Frame Link ModuleThis Service Pack for ProLiant can be used for applying a firmware baseline to the managed hardware. However, it cannot be used for updating firmware for the following components: 
+ Synergy Frame Link Module
+ If these do not apply to the managed hardware, this alert can be cleared. Otherwise, remove this SPP and add it again after including these components. Alternatively, these components can be added as a hotfix and a custom SPP can be created.]
+<4> 2019-05-22T00:06:57.885Z 10.188.0.180 oneview secure-data-at-rest [] [879|Security|Active|None|None|[]] [The appliance encryption key is stored on the appliance hard drive. The credentials and private information it encrypts could be compromised if the hard drive is stolen.Enable secure data at rest to store the appliance encryption key in non-volatile memory. This will protect against data compromise if the hard drive is stolen. Enabling this feature requires downloading and retaining a copy of the key for future use.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T06:44:06.207Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=282529198|Receive=98435053|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T06:44:06.509Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=193827123|Receive=89211276|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T06:44:06.809Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=1450513525|Receive=119593355|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T06:44:07.110Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=783553797|Receive=300362609|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T06:44:07.411Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=307382522|Receive=3980555172|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T06:44:07.712Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=3145780581|Receive=488418707|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T06:44:08.013Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=11745645|Receive=1294692095|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T06:44:08.314Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T06:44:08.614Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T06:44:08.915Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T06:44:09.216Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T06:44:09.517Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280588991|Receive=86965870|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T06:44:09.818Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=190630144|Receive=86674035|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T06:44:10.119Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2116266466|Receive=1200933125|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T06:44:10.420Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1230447955|Receive=2563411977|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T06:44:10.721Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3637947502|Receive=3168457408|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T06:44:11.021Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T06:44:11.322Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T18:45:48.596Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16571|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<2> 2020-06-23T04:07:25.039Z 10.188.0.180 oneview interconnects [] [15911|ConnectionInstance|Active|None|None|[]] [Connection on downlink port 3, subport a has failed. The subport is unlinked.If the server {"name":"MXQ71906VL, bay 3","uri":"/rest/server-hardware/39313738-3034-5535-4E38-313036313853"} is power cycling or powered off, connectivity alerts may occur when the network adapter is either disconnected or negotiates connectivity with the interconnect. These alerts can either be ignored or manually cleared and will normally clear automatically. If the server is booted and running an operating system, the alerts indicate a loss of connectivity between the network adapter and the interconnect. Verify that the CNA supports the current interconnect downlink speed. Verify the configuration of the operating system, as well as the health and link status of the downlink ports on which the connection depends. If the problem persists, contact your authorized support representative and provide a support dump.]
+<2> 2020-06-23T04:07:23.608Z 10.188.0.180 oneview interconnects [] [15909|ConnectionInstance|Active|None|None|[]] [Connection on downlink port 3, subport a has failed. The subport is unlinked.If the server {"name":"MXQ71906VL, bay 3","uri":"/rest/server-hardware/39313738-3034-5535-4E38-313036313853"} is power cycling or powered off, connectivity alerts may occur when the network adapter is either disconnected or negotiates connectivity with the interconnect. These alerts can either be ignored or manually cleared and will normally clear automatically. If the server is booted and running an operating system, the alerts indicate a loss of connectivity between the network adapter and the interconnect. Verify that the CNA supports the current interconnect downlink speed. Verify the configuration of the operating system, as well as the health and link status of the downlink ports on which the connection depends. If the problem persists, contact your authorized support representative and provide a support dump.]
+<4> 2020-05-27T17:43:35.763Z 10.188.0.180 oneview firmware-drivers [] [12054|Operational|Active|None|None|[]] [This firmware bundle does not contain the following infrastructure and manageability components. 
+Synergy Frame Link ModuleThis Service Pack for ProLiant can be used for applying a firmware baseline to the managed hardware. However, it cannot be used for updating firmware for the following components: 
+ Synergy Frame Link Module
+ If these do not apply to the managed hardware, this alert can be cleared. Otherwise, remove this SPP and add it again after including these components. Alternatively, these components can be added as a hotfix and a custom SPP can be created.]
+<4> 2019-05-22T00:06:57.885Z 10.188.0.180 oneview secure-data-at-rest [] [879|Security|Active|None|None|[]] [The appliance encryption key is stored on the appliance hard drive. The credentials and private information it encrypts could be compromised if the hard drive is stolen.Enable secure data at rest to store the appliance encryption key in non-volatile memory. This will protect against data compromise if the hard drive is stolen. Enabling this feature requires downloading and retaining a copy of the key for future use.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T06:48:51.381Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=282532978|Receive=98440069|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T06:48:51.682Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=193940755|Receive=89216913|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T06:48:51.983Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=1450627089|Receive=119599703|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T06:48:52.284Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=783795336|Receive=300818452|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T06:48:52.585Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=307836634|Receive=3981365022|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T06:48:52.886Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=3146524228|Receive=490259264|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T06:48:53.186Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=11944885|Receive=1294857574|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T06:48:53.487Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T06:48:53.788Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T06:48:54.089Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T06:48:54.390Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T06:48:54.691Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280592795|Receive=86970886|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T06:48:54.991Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=190742892|Receive=86679519|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T06:48:55.293Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2116379214|Receive=1200939473|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T06:48:55.594Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1230560703|Receive=2563415499|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T06:48:55.894Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3637949482|Receive=3169450589|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T06:48:56.195Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T06:48:56.496Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<2> 2020-06-23T19:24:40.024Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16219|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<2> 2020-06-23T19:24:40.024Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16219|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<2> 2020-06-23T19:24:40.024Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16219|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T18:55:49.084Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16573|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<2> 2020-06-23T19:24:40.024Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16219|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<2> 2020-06-23T19:24:40.024Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16220|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<2> 2020-06-23T19:24:40.024Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16220|None|Cleared|None|None|[]] [Integrated1 Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<2> 2020-06-23T19:24:40.024Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16220|None|Cleared|None|None|[]] [Integrated2 Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T06:58:52.041Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T06:58:52.342Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T06:58:52.643Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T06:58:52.944Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T06:58:53.245Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T06:58:53.545Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T06:58:53.846Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T06:58:54.147Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T06:58:54.448Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T06:58:54.749Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T06:58:55.050Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T06:58:55.350Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280608175|Receive=86991062|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T06:58:55.651Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=191158243|Receive=86702067|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T06:58:55.952Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2116794729|Receive=1200965042|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T06:58:56.253Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1230976218|Receive=2563429764|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T06:58:56.554Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3637957402|Receive=3173344666|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T06:58:56.854Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T06:58:57.155Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T19:05:49.828Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16575|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T07:08:51.452Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T07:08:51.753Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T07:08:52.054Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T07:08:52.355Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T07:08:52.656Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T07:08:52.957Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T07:08:53.258Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:08:53.559Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:08:53.859Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:08:54.160Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:08:54.461Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:08:54.762Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280620374|Receive=87006946|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T07:08:55.063Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=191483497|Receive=86719584|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T07:08:55.364Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2117119666|Receive=1200985144|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T07:08:55.665Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1231301472|Receive=2563441327|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T07:08:55.965Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3637963901|Receive=3176484898|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T07:08:56.266Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T07:08:56.567Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<2> 2020-06-23T19:24:40.024Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16220|None|Cleared|None|None|[]] [Integrated2 Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<2> 2020-06-23T19:24:40.024Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16220|None|Cleared|None|None|[]] [Integrated3 Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<2> 2020-06-23T19:24:40.024Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16220|None|Cleared|None|None|[]] [Integrated4 Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<2> 2020-06-23T19:24:40.024Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16220|None|Cleared|None|None|[]] [Integrated4 Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T19:15:51.009Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16577|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T07:18:51.676Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T07:18:51.976Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T07:18:52.277Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T07:18:52.578Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T07:18:52.879Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T07:18:53.180Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T07:18:53.481Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:18:53.781Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:18:54.082Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:18:54.383Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:18:54.684Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:18:54.985Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280632901|Receive=87023666|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T07:18:55.286Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=191814798|Receive=86737713|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T07:18:55.587Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2117451284|Receive=1201006304|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T07:18:55.888Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1231632773|Receive=2563452657|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T07:18:56.188Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3637970373|Receive=3179648452|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T07:18:56.489Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T07:18:56.790Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T19:25:51.999Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16579|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T07:28:51.781Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T07:28:52.081Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T07:28:52.382Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T07:28:52.683Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T07:28:52.984Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T07:28:53.285Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T07:28:53.586Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:28:53.886Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:28:54.187Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:28:54.488Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:28:54.789Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:28:55.090Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280645417|Receive=87040274|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T07:28:55.391Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=192145186|Receive=86755381|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T07:28:55.692Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2117781508|Receive=1201027287|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T07:28:55.992Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1231962997|Receive=2563464220|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T07:28:56.293Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3637976872|Receive=3182816749|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T07:28:56.594Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T07:28:56.895Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T19:35:52.498Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16581|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T07:38:51.741Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T07:38:52.042Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T07:38:52.342Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T07:38:52.643Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T07:38:52.944Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T07:38:53.245Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T07:38:53.546Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:38:53.847Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:38:54.148Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:38:54.449Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:38:54.750Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:38:55.051Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280657780|Receive=87056270|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T07:38:55.351Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=192476113|Receive=86773510|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T07:38:55.652Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2118112599|Receive=1201048447|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T07:38:55.953Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1232294088|Receive=2563475960|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T07:38:56.254Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3637983371|Receive=3185983500|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T07:38:56.555Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T07:38:56.856Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T19:45:53.139Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16583|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T07:48:52.055Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T07:48:52.356Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T07:48:52.656Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T07:48:52.957Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T07:48:53.258Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T07:48:53.559Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T07:48:53.860Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:48:54.160Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:48:54.461Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:48:54.762Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:48:55.063Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:48:55.363Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280670460|Receive=87072990|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T07:48:55.664Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=192802096|Receive=86791790|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T07:48:55.965Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2118438418|Receive=1201068726|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T07:48:56.266Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1232619907|Receive=2563487523|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T07:48:56.566Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3637989971|Receive=3189158115|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T07:48:56.867Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T07:48:57.168Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T19:55:52.854Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16585|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T07:58:52.295Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T07:58:52.596Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T07:58:52.897Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T07:58:53.198Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T07:58:53.499Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T07:58:53.799Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T07:58:54.100Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:58:54.401Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:58:54.702Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:58:55.003Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:58:55.304Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T07:58:55.604Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280682987|Receive=87089710|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T07:58:55.905Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=193137242|Receive=86809919|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T07:58:56.206Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2118773728|Receive=1201089886|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T07:58:56.507Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1232955217|Receive=2563499263|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T07:58:56.808Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3637996342|Receive=3192353136|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T07:58:57.109Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T07:58:57.409Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T20:05:52.986Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16587|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T08:08:52.727Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T08:08:53.027Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T08:08:53.328Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T08:08:53.629Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T08:08:53.930Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T08:08:54.231Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T08:08:54.532Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T08:08:54.832Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:08:55.133Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:08:55.434Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:08:55.735Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:08:56.036Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280695503|Receive=87106318|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T08:08:56.337Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=193460301|Receive=86827587|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T08:08:56.638Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2119096623|Receive=1201110869|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T08:08:56.939Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1233278112|Receive=2563510593|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T08:08:57.239Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638002942|Receive=3195520085|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T08:08:57.540Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T08:08:57.841Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T20:15:53.539Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16589|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T08:18:52.186Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T08:18:52.487Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T08:18:52.788Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T08:18:53.089Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T08:18:53.390Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T08:18:53.690Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T08:18:53.991Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T08:18:54.292Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:18:54.593Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:18:54.894Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:18:55.195Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:18:55.496Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280707866|Receive=87122314|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T08:18:55.797Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=193808693|Receive=86845716|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T08:18:56.097Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2119445179|Receive=1201131677|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T08:18:56.398Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1233626668|Receive=2563522333|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T08:18:56.699Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638009441|Receive=3198718126|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T08:18:57.000Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T08:18:57.301Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T20:25:54.443Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16591|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T08:28:52.525Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T08:28:52.826Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T08:28:53.127Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T08:28:53.428Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T08:28:53.728Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T08:28:54.029Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T08:28:54.330Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T08:28:54.631Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:28:54.932Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:28:55.233Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:28:55.534Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:28:55.834Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280720393|Receive=87139034|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T08:28:56.135Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=194138271|Receive=86863845|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T08:28:56.436Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2119774757|Receive=1201152308|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T08:28:56.737Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1233956246|Receive=2563533896|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T08:28:57.038Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638016041|Receive=3201876201|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T08:28:57.339Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T08:28:57.640Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T20:35:55.855Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16593|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T08:38:52.481Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T08:38:52.782Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T08:38:53.083Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T08:38:53.384Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T08:38:53.685Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T08:38:53.985Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T08:38:54.286Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T08:38:54.587Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:38:54.888Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:38:55.189Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:38:55.490Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T08:38:55.790Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280732909|Receive=87155642|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T08:38:56.091Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=194473948|Receive=86881513|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T08:38:56.392Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2120110270|Receive=1201173291|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T08:38:56.693Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1234291759|Receive=2563545459|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T08:38:56.994Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638022412|Receive=3205042823|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T08:38:57.295Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T08:38:57.596Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T20:45:55.774Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16595|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<2> 2020-06-23T04:07:25.039Z 10.188.0.180 oneview interconnects [] [15911|ConnectionInstance|Active|None|None|[]] [Connection on downlink port 3, subport a has failed. The subport is unlinked.If the server {"name":"MXQ71906VL, bay 3","uri":"/rest/server-hardware/39313738-3034-5535-4E38-313036313853"} is power cycling or powered off, connectivity alerts may occur when the network adapter is either disconnected or negotiates connectivity with the interconnect. These alerts can either be ignored or manually cleared and will normally clear automatically. If the server is booted and running an operating system, the alerts indicate a loss of connectivity between the network adapter and the interconnect. Verify that the CNA supports the current interconnect downlink speed. Verify the configuration of the operating system, as well as the health and link status of the downlink ports on which the connection depends. If the problem persists, contact your authorized support representative and provide a support dump.]
+<2> 2020-06-23T04:07:23.608Z 10.188.0.180 oneview interconnects [] [15909|ConnectionInstance|Active|None|None|[]] [Connection on downlink port 3, subport a has failed. The subport is unlinked.If the server {"name":"MXQ71906VL, bay 3","uri":"/rest/server-hardware/39313738-3034-5535-4E38-313036313853"} is power cycling or powered off, connectivity alerts may occur when the network adapter is either disconnected or negotiates connectivity with the interconnect. These alerts can either be ignored or manually cleared and will normally clear automatically. If the server is booted and running an operating system, the alerts indicate a loss of connectivity between the network adapter and the interconnect. Verify that the CNA supports the current interconnect downlink speed. Verify the configuration of the operating system, as well as the health and link status of the downlink ports on which the connection depends. If the problem persists, contact your authorized support representative and provide a support dump.]
+<4> 2020-05-27T17:43:35.763Z 10.188.0.180 oneview firmware-drivers [] [12054|Operational|Active|None|None|[]] [This firmware bundle does not contain the following infrastructure and manageability components. 
+Synergy Frame Link ModuleThis Service Pack for ProLiant can be used for applying a firmware baseline to the managed hardware. However, it cannot be used for updating firmware for the following components: 
+ Synergy Frame Link Module
+ If these do not apply to the managed hardware, this alert can be cleared. Otherwise, remove this SPP and add it again after including these components. Alternatively, these components can be added as a hotfix and a custom SPP can be created.]
+<4> 2019-05-22T00:06:57.885Z 10.188.0.180 oneview secure-data-at-rest [] [879|Security|Active|None|None|[]] [The appliance encryption key is stored on the appliance hard drive. The credentials and private information it encrypts could be compromised if the hard drive is stolen.Enable secure data at rest to store the appliance encryption key in non-volatile memory. This will protect against data compromise if the hard drive is stolen. Enabling this feature requires downloading and retaining a copy of the key for future use.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=710 watts]
+
+<6> 2020-06-24T09:12:15.334Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T09:12:15.636Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T09:12:15.936Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T09:12:16.237Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T09:12:16.538Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T09:12:16.839Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T09:12:17.140Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T09:12:17.441Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T09:12:17.742Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T09:12:18.042Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T09:12:18.343Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T09:12:18.644Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280745272|Receive=87171638|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T09:12:18.945Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=194826852|Receive=86899642|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T09:12:19.246Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2120463338|Receive=1201194451|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T09:12:19.546Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1234644827|Receive=2563557199|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T09:12:19.847Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638028911|Receive=3208246083|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T09:12:20.148Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T09:12:20.449Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T21:13:22.386Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16601|Power|Cleared|None|None|[]] [The server has been powered off.]
+<6> 2020-06-24T21:13:22.650Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16603|Network|Cleared|None|None|[]] [The network adapter(s) or the server is powered off or is being configured. All network related alerts for this server will be cleared.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T21:14:13.763Z 10.188.0.180 oneview interconnects [] [16605|InterconnectBay|Cleared|None|None|[]] [Link Status on MXQ71906VL, interconnect 5, port d4 changed (UNLINKED).]
+<6> 2020-06-24T21:14:40.181Z 10.188.0.180 oneview interconnects [] [16607|InterconnectBay|Cleared|None|None|[]] [Link Status on MXQ71906VL, interconnect 2, port d4 changed (UNLINKED).]
+<6> 2020-06-24T21:15:56.687Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16609|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T21:15:56.687Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16609|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<2> 2020-06-24T21:15:56.687Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16609|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<2> 2020-06-24T21:15:56.687Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16609|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<2> 2020-06-24T21:15:56.687Z 10.188.0.180 oneview serverHardware [localhost.pxeboot.local;MXQ70805V2] [16609|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T17:10:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=716 watts]
+
+<6> 2020-06-24T09:22:15.106Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T09:22:15.407Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T09:22:15.708Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T09:22:16.009Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T09:22:16.310Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T09:22:16.611Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T09:22:16.912Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T09:22:17.213Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T09:22:17.513Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T09:22:17.814Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280787116|Receive=87226814|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T09:22:18.115Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=195928558|Receive=86959966|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T09:22:18.416Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2121564880|Receive=1201263398|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T09:22:18.717Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1235746369|Receive=2563606884|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T09:22:19.018Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638050691|Receive=3218672066|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T09:22:19.318Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T09:22:19.619Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T21:25:57.295Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16611|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T17:10:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=657 watts|PeakPower=716 watts]
+
+<6> 2020-06-24T09:32:15.292Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T09:32:15.593Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T09:32:15.894Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T09:32:16.195Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T09:32:16.496Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T09:32:16.797Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T09:32:17.098Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T09:32:17.398Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T09:32:17.699Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T09:32:18.000Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280799479|Receive=87243422|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T09:32:18.301Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=196277553|Receive=86978095|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T09:32:18.602Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2121914039|Receive=1201284558|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T09:32:18.903Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1236095528|Receive=2563631564|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T09:32:19.203Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638057062|Receive=3221638521|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T09:32:19.504Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T09:32:19.805Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T21:34:00.749Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16613|DeviceBay|Cleared|None|None|[]] [Server reset detected.]
+<6> 2020-06-24T21:34:00.959Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16615|Power|Cleared|None|None|[]] [The server has been powered on.]
+<6> 2020-06-24T21:35:38.804Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16617|DeviceBay|Cleared|None|None|[]] [Server reset detected.]
+<6> 2020-06-24T21:35:41.089Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16619|Network|Cleared|None|None|[]] [Connectivity is restored for adapter in slot 3, port 1.]
+<6> 2020-06-24T21:35:41.179Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16621|Network|Cleared|None|None|[]] [Connectivity is restored for adapter in slot 3, port 2.]
+<6> 2020-06-24T21:35:51.809Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16623|Power|Cleared|None|None|[]] [The server has been powered off.]
+<6> 2020-06-24T21:35:52.012Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16625|Network|Cleared|None|None|[]] [The network adapter(s) or the server is powered off or is being configured. All network related alerts for this server will be cleared.]
+<6> 2020-06-24T21:35:57.899Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16627|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T21:40:55.328Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16629|DeviceBay|Cleared|None|None|[]] [Server reset detected.]
+<6> 2020-06-24T21:40:55.439Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16631|Power|Cleared|None|None|[]] [The server has been powered on.]
+<6> 2020-06-24T21:42:09.068Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16633|DeviceBay|Cleared|None|None|[]] [Server reset detected.]
+<6> 2020-06-24T21:42:19.240Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16635|Power|Cleared|None|None|[]] [The server has been powered off.]
+<6> 2020-06-24T17:35:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=621 watts|PeakPower=802 watts]
+
+<6> 2020-06-24T09:42:15.331Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T09:42:15.632Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T09:42:15.933Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T09:42:16.233Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T09:42:16.534Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T09:42:16.835Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T09:42:17.136Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T09:42:17.437Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T09:42:17.738Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T09:42:18.038Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280812159|Receive=87260142|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T09:42:18.339Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=196642533|Receive=86995763|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T09:42:18.640Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2122278855|Receive=1201305541|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T09:42:18.941Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1236459209|Receive=2563656134|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T09:42:19.242Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638064116|Receive=3224631309|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T09:42:19.543Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T09:42:19.844Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T07:20:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=75 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=108 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T21:45:58.660Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16637|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T17:35:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=621 watts|PeakPower=802 watts]
+
+<6> 2020-06-24T09:52:17.379Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T09:52:17.680Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T09:52:17.980Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T09:52:18.281Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T09:52:18.582Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T09:52:18.883Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T09:52:19.184Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T09:52:19.485Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T09:52:19.786Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T09:52:20.087Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280824522|Receive=87276138|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T09:52:20.387Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=197005072|Receive=87013892|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T09:52:20.688Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2122641558|Receive=1201326525|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T09:52:20.989Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1236505550|Receive=2563676550|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T09:52:21.290Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638070709|Receive=3227614685|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T09:52:21.591Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T09:52:21.892Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T17:40:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=17 dec C|AveragePower=116 watts|CpuAverageFreq=0 Hz|CpuUtilization=31 %|PeakPower=126 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T21:54:21.051Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16639|DeviceBay|Cleared|None|None|[]] [Server reset detected.]
+<6> 2020-06-24T21:54:21.176Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16641|Power|Cleared|None|None|[]] [The server has been powered on.]
+<6> 2020-06-24T21:55:58.457Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16643|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T21:56:12.428Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16645|Network|Cleared|None|None|[]] [Connectivity is restored for adapter in slot 3, port 1.]
+<6> 2020-06-24T21:56:12.518Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16647|Network|Cleared|None|None|[]] [Connectivity is restored for adapter in slot 3, port 2.]
+<6> 2020-06-24T21:56:19.487Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16649|DeviceBay|Cleared|None|None|[]] [Server reset detected.]
+<6> 2020-06-24T21:56:31.136Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16651|Power|Cleared|None|None|[]] [The server has been powered off.]
+<6> 2020-06-24T21:56:31.303Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16653|Network|Cleared|None|None|[]] [The network adapter(s) or the server is powered off or is being configured. All network related alerts for this server will be cleared.]
+<6> 2020-06-24T21:56:54.052Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16655|DeviceBay|Cleared|None|None|[]] [Server reset detected.]
+<6> 2020-06-24T21:56:54.177Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16657|Power|Cleared|None|None|[]] [The server has been powered on.]
+<6> 2020-06-24T21:58:31.916Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16659|DeviceBay|Cleared|None|None|[]] [Server reset detected.]
+<6> 2020-06-24T21:58:34.189Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16661|Network|Cleared|None|None|[]] [Connectivity is restored for adapter in slot 3, port 1.]
+<6> 2020-06-24T21:58:34.251Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16663|Network|Cleared|None|None|[]] [Connectivity is restored for adapter in slot 3, port 2.]
+<6> 2020-06-24T21:58:44.955Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16665|Power|Cleared|None|None|[]] [The server has been powered off.]
+<6> 2020-06-24T21:58:45.082Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16667|Network|Cleared|None|None|[]] [The network adapter(s) or the server is powered off or is being configured. All network related alerts for this server will be cleared.]
+<6> 2020-06-24T21:58:52.600Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16669|DeviceBay|Cleared|None|None|[]] [Server reset detected.]
+<6> 2020-06-24T21:58:52.778Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16671|Power|Cleared|None|None|[]] [The server has been powered on.]
+<6> 2020-06-24T22:00:41.658Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16673|Network|Cleared|None|None|[]] [Connectivity is restored for adapter in slot 3, port 1.]
+<6> 2020-06-24T22:00:41.706Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16675|Network|Cleared|None|None|[]] [Connectivity is restored for adapter in slot 3, port 2.]
+<6> 2020-06-24T22:01:04.279Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16677|Network|Cleared|None|None|[]] [Connectivity is restored for adapter in slot 3, port 1.]
+<6> 2020-06-24T22:01:04.391Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16679|Network|Cleared|None|None|[]] [Connectivity is restored for adapter in slot 3, port 2.]
+<6> 2020-06-24T17:55:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=625 watts|PeakPower=809 watts]
+
+<6> 2020-06-24T10:02:15.772Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T10:02:16.072Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T10:02:16.373Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T10:02:16.674Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T10:02:16.975Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T10:02:17.276Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T10:02:17.577Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T10:02:17.877Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:02:18.178Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:02:18.479Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280837202|Receive=87292858|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T10:02:18.780Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=197354188|Receive=87032172|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T10:02:19.081Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2122990510|Receive=1201346980|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T10:02:19.382Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1236816880|Receive=2563704055|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T10:02:19.683Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638078131|Receive=3230592546|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T10:02:19.983Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T10:02:20.284Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T17:50:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=0 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T22:05:28.780Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16681|DeviceBay|Cleared|None|None|[]] [Server reset detected.]
+<6> 2020-06-24T22:05:29.020Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16683|Power|Cleared|None|None|[]] [The server has been powered on.]
+<6> 2020-06-24T22:05:29.229Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16685|Network|Cleared|None|None|[]] [The network adapter(s) or the server is powered off or is being configured. All network related alerts for this server will be cleared.]
+<6> 2020-06-24T22:05:58.703Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16687|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T22:06:53.098Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16689|Network|Cleared|None|None|[]] [Connectivity is restored for adapter in slot 3, port 1.]
+<6> 2020-06-24T22:06:53.245Z 10.188.0.180 oneview server-hardware [host2.gse.local;5UN810618T] [16691|Network|Cleared|None|None|[]] [Connectivity is restored for adapter in slot 3, port 2.]
+<6> 2020-06-24T22:07:51.863Z 10.188.0.180 oneview interconnects [] [16693|InterconnectBay|Cleared|None|None|[]] [Link Status on MXQ71906VL, interconnect 2, port d4 changed (UNLINKED).]
+<6> 2020-06-24T22:08:44.375Z 10.188.0.180 oneview interconnects [] [16695|InterconnectBay|Cleared|None|None|[]] [Link Status on MXQ71906VL, interconnect 5, port d4 changed (LINKED).]
+<6> 2020-06-24T22:08:44.504Z 10.188.0.180 oneview interconnects [] [16697|InterconnectBay|Cleared|None|None|[]] [Link Status on MXQ71906VL, interconnect 5, port d4 changed (LINKED).]
+<6> 2020-06-24T22:09:07.067Z 10.188.0.180 oneview interconnects [] [16699|InterconnectBay|Cleared|None|None|[]] [Link Status on MXQ71906VL, interconnect 2, port d4 changed (LINKED).]
+<6> 2020-06-24T17:55:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=625 watts|PeakPower=809 watts]
+
+<6> 2020-06-24T10:12:16.491Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T10:12:16.792Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T10:12:17.093Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T10:12:17.393Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T10:12:17.695Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T10:12:17.996Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T10:12:18.296Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T10:12:18.597Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:12:18.899Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:12:19.200Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:12:19.500Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:12:19.801Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280849565|Receive=87309466|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T10:12:20.103Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=197702723|Receive=87049995|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T10:12:20.404Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2123339209|Receive=1201368140|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T10:12:20.704Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1237165729|Receive=2563718305|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T10:12:21.005Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638084776|Receive=3233647130|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T10:12:21.306Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T10:12:21.607Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T17:50:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=0 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T22:15:59.690Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16701|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T17:55:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=625 watts|PeakPower=809 watts]
+
+<6> 2020-06-24T10:22:16.101Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T10:22:16.402Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T10:22:16.703Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T10:22:17.004Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T10:22:17.305Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T10:22:17.605Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T10:22:17.906Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T10:22:18.207Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:22:18.508Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:22:18.809Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:22:19.110Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:22:19.410Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280862092|Receive=87325574|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T10:22:19.711Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=198042280|Receive=87067818|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T10:22:20.012Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2123678766|Receive=1201389123|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T10:22:20.313Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1237505062|Receive=2563729868|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T10:22:20.614Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638091376|Receive=3236835622|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T10:22:20.915Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T10:22:21.215Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T17:50:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=0 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T22:25:59.719Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16703|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T17:55:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=625 watts|PeakPower=809 watts]
+
+<6> 2020-06-24T10:32:16.279Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T10:32:16.580Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T10:32:16.881Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T10:32:17.182Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T10:32:17.482Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T10:32:17.783Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T10:32:18.084Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T10:32:18.385Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:32:18.686Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:32:18.987Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:32:19.287Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:32:19.588Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280874608|Receive=87342182|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T10:32:19.889Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=198368144|Receive=87086098|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T10:32:20.190Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2124004466|Receive=1201409402|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T10:32:20.491Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1237831079|Receive=2563741375|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T10:32:20.792Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638097875|Receive=3240010595|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T10:32:21.093Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T10:32:21.394Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T17:50:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=0 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T22:36:00.121Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16705|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T17:55:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=625 watts|PeakPower=809 watts]
+
+<6> 2020-06-24T10:42:16.053Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T10:42:16.354Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T10:42:16.655Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T10:42:16.956Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T10:42:17.257Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T10:42:17.558Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T10:42:17.858Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T10:42:18.159Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:42:18.460Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:42:18.761Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:42:19.062Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:42:19.363Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280886971|Receive=87358790|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T10:42:19.664Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=198700477|Receive=87104227|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T10:42:19.964Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2124336963|Receive=1201430562|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T10:42:20.265Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1238163259|Receive=2563752938|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T10:42:20.566Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638104374|Receive=3243179971|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T10:42:20.867Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T10:42:21.168Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T17:50:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=0 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<2> 2020-06-24T21:15:56.687Z 10.188.0.180 oneview serverHardware [localhost.pxeboot.local;MXQ70805V2] [16609|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T22:46:01.012Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16707|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T17:55:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=625 watts|PeakPower=809 watts]
+
+<6> 2020-06-24T10:52:16.289Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T10:52:16.589Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T10:52:16.890Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T10:52:17.191Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T10:52:17.492Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T10:52:17.793Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T10:52:18.094Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T10:52:18.394Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:52:18.695Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:52:18.996Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:52:19.297Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T10:52:19.598Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280899651|Receive=87375510|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T10:52:19.899Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=199035413|Receive=87121895|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T10:52:20.199Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2124670767|Receive=1201451545|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T10:52:20.500Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1238497380|Receive=2563764678|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T10:52:20.801Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638110846|Receive=3246413974|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T10:52:21.102Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T10:52:21.403Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T17:50:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=0 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T22:56:01.739Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16709|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]
+<6> 2020-06-24T17:55:00Z 10.188.0.180 oneview EnclosureStats [MXQ71906VL] [AmbientTemperature=17 dec C|AveragePower=625 watts|PeakPower=809 watts]
+
+<6> 2020-06-24T11:02:16.455Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d1|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:30]
+
+<6> 2020-06-24T11:02:16.755Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d2|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6d]
+
+<2> 2020-06-24T11:02:17.056Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d3|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T11:02:17.357Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [d4|Transmit=None|Receive=None|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 1]
+
+<6> 2020-06-24T11:02:17.658Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q1|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=FortyGigE1/1/25]
+
+<6> 2020-06-24T11:02:17.958Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q7|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T11:02:18.259Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 3] [Q8|Transmit=None|Receive=None|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T11:02:18.560Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T11:02:18.861Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 2] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T11:02:19.162Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [d4|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T11:02:19.463Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 5] [1|Transmit=None|Receive=None|Speed=Speed16G|AdaptorPort=None]
+
+<6> 2020-06-24T11:02:19.763Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d1|Transmit=280912178|Receive=87391618|Speed=Speed20G|AdaptorPort=9c:dc:71:9d:94:38]
+
+<6> 2020-06-24T11:02:20.064Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d2|Transmit=199344470|Receive=87140024|Speed=Speed20G|AdaptorPort=b2:16:76:00:01:6e]
+
+<2> 2020-06-24T11:02:20.365Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d3|Transmit=2124980956|Receive=1201472705|Speed=Speed20G|AdaptorPort=Bay 3, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T11:02:20.666Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [d4|Transmit=1238807252|Receive=2563776241|Speed=Speed20G|AdaptorPort=Bay 4, Mezzanine Slot 3, Port 2]
+
+<6> 2020-06-24T11:02:20.967Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q1|Transmit=3638117345|Receive=3249633245|Speed=Speed40G|AdaptorPort=FortyGigE1/2/25]
+
+<6> 2020-06-24T11:02:21.268Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q7|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q7]
+
+<6> 2020-06-24T11:02:21.569Z 10.188.0.180 oneview PortStats [MXQ71906VL, interconnect 6] [Q8|Transmit=0|Receive=0|Speed=Speed40G|AdaptorPort=Q8]
+
+<6> 2020-06-24T07:15:00Z 10.188.0.180 oneview ServerStats [host1.gse.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T17:50:00Z 10.188.0.180 oneview ServerStats [host2.gse.local] [AmbientTemperature=0 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:50:00Z 10.188.0.180 oneview ServerStats [localhost.pxeboot.local] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T11:55:00Z 10.188.0.180 oneview ServerStats [] [AmbientTemperature=16 dec C|AveragePower=0 watts|CpuAverageFreq=0 Hz|CpuUtilization=0 %|PeakPower=0 watts|PowerCap=None]
+
+<6> 2020-06-24T23:06:02.363Z 10.188.0.180 oneview server-hardware [localhost.pxeboot.local;MXQ70805V2] [16711|None|Cleared|None|None|[]] [Integrated Lights-Out detected more than 3 unauthorized login attempts.Check the iLO log for more information on the login failure.]

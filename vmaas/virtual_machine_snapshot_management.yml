@@ -1,0 +1,30 @@
+---
+- hosts: localhost
+  connection: local
+
+  tasks:
+  - name: Create a snapshot for "{{ vm_name }}"
+    vmware_guest_snapshot:
+      hostname: "{{ vcenter_server }}"
+      username: "{{ vcenter_admin }}"
+      password: "{{ vcenter_pass }}"
+      validate_certs: no
+      datacenter: "{{ datacenter }}"
+      folder: "{{ vm_folder }}"
+      name: "{{ vm_name }}"
+      state: "{{ snapshot_action }}"
+      snapshot_name: "{{ vm_name }}_{{ ansible_date_time.date }}_{{ ansible_date_time.time }}"
+      description: "NA"
+    when: snapshot_action  == "present"
+
+  - name: Deleting all the snapshot for "{{ vm_name }}"
+    vmware_guest_snapshot:
+      hostname: "{{ vcenter_server }}"
+      username: "{{ vcenter_admin }}"
+      password: "{{ vcenter_pass }}"
+      validate_certs: no
+      datacenter: "{{ datacenter }}"
+      folder: "{{ vm_folder }}"
+      name: "{{ vm_name }}"
+      state: "{{ snapshot_action }}"
+    when: snapshot_action  == "remove_all"

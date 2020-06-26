@@ -1,0 +1,37 @@
+- hosts: localhost
+  connection: local
+  vars_files:            
+    - data/volume_cpg.yml  
+  tasks:
+    - name: Get VMFS datastores to ESXi
+      vmware_datastore_san_facts:
+        hostname: '{{ vcenter_server }}'
+        username: '{{ vcenter_admin }}'
+        password: '{{ vcenter_pass }}'
+        datastore_name: '{{ vcenter_datastore }}'
+        validate_certs: False
+      delegate_to: localhost
+      register: datastoreFacts
+
+    - set_fact:
+        datastore_wwn: "{{ item.wwn[0] | upper }}"
+      with_items: "{{ datastoreFacts.datastores }}"
+
+    - fail:
+        msg: "Unable to find 3PAR volume wwn of the datastore {{ vcenter_datastore }}"
+      when: datastore_wwn is not defined
+
+    - name: Modify volume in "{{ storage_tier }}"
+      import_tasks: hpe3par_volume_resize.yml
+      when: storage_tier == '3par'
+
+    - name: Mount VMFS datastores to ESXi
+      vmware_host_datastore_san:
+          hostname: '{{ vcenter_server }}'
+          username: '{{ vcenter_admin }}'
+          password: '{{ vcenter_pass }}'
+          datastore_name: '{{ vcenter_datastore }}'
+          volume_device_name: '{{ storage_wwn }}'
+          esxi_hostname: '{{ esxi_hostname }}'
+          validate_certs: False
+      delegate_to: localhost
